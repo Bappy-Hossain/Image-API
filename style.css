@@ -4,8 +4,35 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style: none;
 }
 
-h2 {
-  color: red;
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.image-container-item {
+  width: 96%;
+  padding: 20px;
+  border-radius: 10px;
+  background: #ddd;
+  box-shadow: 0 0 10px #ddd;
+  margin: 15px auto 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container-item img {
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+.image-container-item p {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-align: center;
 }
